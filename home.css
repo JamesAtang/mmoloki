@@ -1,0 +1,137 @@
+*{
+ margin:0;
+ padding:0;
+}
+.main{
+      width:100%;
+      background:url('Butterfly.jpg');
+      background-position:cover;
+      background-size:cover;
+      height:109vh;
+}
+.navbar{
+ width:1200px;
+ height:75px;
+ margin:auto;
+}
+.icon{
+ width:200px;
+ float:left;}
+ height:70px;
+}
+.logo {
+ color:aqua;
+ font-size:35px;
+ font-family:arial;
+ padding-left:20px;
+ float:left;
+ padding-top:10px;
+padding-right:20px;
+ 
+}
+.menu{
+  width:400px;
+  float:left;
+ margin-top:20px;
+}
+ul{
+ float:left;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+ul li{
+     list-style:none;
+     margin-left:62px;
+     margin-top:27px;
+    font-size:14px;
+}
+ul li a {
+ text-decoration:none;
+ color:#fff;
+transition:0.4s ease-in-out;
+font-family:jokerman;
+display:flex;
+font-weight:bold;
+    }
+
+ul li a:hover{
+    color:aqua;
+    background:violet;
+}
+.search{
+   width:330px;
+  float:left;
+  margin-left:880px;
+}
+.srch{
+   font-family:Curlz MT;
+  width:200px;
+  height:40px;
+  color:aqua;
+  padding:10px;
+  background:transparent;
+  border:1px solid aqua;
+  margin-top:13px;
+ border-right:-1px;
+ font-size:16px;
+border-bottom-left-radius:5px;
+border-top-left-radius:5px;
+}
+.btn{
+ width:50px;
+height:40px;
+ background:transparent;
+border:2px solid aqua;
+ color:aqua;
+ font-size:15px;
+border-bottom-right-radius:5px;
+border-bottom-right-radius:5px;
+ }
+.btn{
+    outline:none;
+}
+.srch:focus{
+  outline:none
+}
+.content {
+ width:1200px;
+height:auto;
+ margin:auto;
+ color:#333;
+ position:relative;
+font-size:20px;
+}
+.content .par {
+     padding-left:20px;
+     padding-bottom:25px;
+     font-family:arial;
+     letter-spacing:1.2px;
+     line-height:30px;
+ }
+.content .cn{
+ width:160px;
+ height:40px;
+ background:aqua;
+border:none;
+ margin-bottom:10px;
+margin-left:20px;
+font-size:18px;
+ border-radius:10px;
+cursor:pointer;
+}
+.content .cn a{
+ text-decoration:none;
+ color:#000;
+ transition:0.3s ease;
+}
+.cn:hover{
+ background-color:#ff7200;
+}
+.content span {
+color:aqua;
+font-size:6px;}
+
+
+
+}
